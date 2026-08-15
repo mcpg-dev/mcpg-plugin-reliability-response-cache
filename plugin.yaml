@@ -1,0 +1,12 @@
+schema: mcpg.dev/plugin/v1
+id: dev.mcpg.response-cache
+name: Response Cache
+license: Apache-2.0
+description: |
+  Short-lived TTL cache for tool responses. Keyed on tool name plus
+  a hash of the request arguments; first hit populates, subsequent
+  hits return the cached response until the entry expires.
+class: tool_gate
+runtime: native-cdylib-v1
+protocol_version: "1.0"
+required_capabilities: []
