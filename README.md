@@ -41,7 +41,7 @@ plugins:
     source: { path: ./plugins/libmcpg_plugin_reliability_response_cache.so }
     # or, platform-agnostic — the gateway resolves the artifact for its own
     # os/arch/libc at boot:
-    # source: { oci: ghcr.io/mcpg-dev/source-code/plugins/response-cache:protocol-1 }
+    # source: { oci: ghcr.io/mcpg-dev/plugins/response-cache }
     config:
       default_ttl_ms: 300000          # 5 minutes
       max_entries: 10000
