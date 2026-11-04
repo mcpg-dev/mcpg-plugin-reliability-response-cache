@@ -1,6 +1,6 @@
 [package]
 name = "mcpg-plugin-reliability-response-cache"
-version = "0.1.0-rc.5"
+version = "0.1.0"
 license = "Apache-2.0"
 edition = "2024"
 description = "Response caching ToolGate plugin for MCPG gateway — per-tool TTL cache with identity scoping"
